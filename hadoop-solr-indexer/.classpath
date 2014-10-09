@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-analysis-extras-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-cell-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-clustering-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-core-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-dataimporthandler-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-dataimporthandler-extras-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-langid-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-solrj-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-test-framework-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-uima-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/solr-velocity-4.4.0-search-1.3.0.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/httpmime-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/jcl-over-slf4j-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/jul-to-slf4j-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/zookeeper-3.4.5-cdh4.5.0.jar"/>
+	<classpathentry kind="lib" path="/etc/solr"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/httpmime-4.2.3.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/jcl-over-slf4j-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/jul-to-slf4j-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/solr/lib/solrj-lib/zookeeper-3.4.5-cdh4.5.0.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/antlr-runtime-3.5.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/asm-4.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/asm-commons-4.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/concurrentlinkedhashmap-lru-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/hadoop-annotations-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/hadoop-auth-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/hadoop-common-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/hadoop-hdfs-2.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/hppc-0.5.2.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/joda-time-2.2.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-analyzers-common-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-analyzers-kuromoji-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-analyzers-phonetic-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-codecs-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-core-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-expressions-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-grouping-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-highlighter-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-join-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-memory-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-misc-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-queries-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-queryparser-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-spatial-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/lucene-suggest-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/org.restlet.ext.servlet-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/org.restlet-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/protobuf-java-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/solr-core-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/solr-solrj-4.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/spatial4j-0.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/wstx-asl-3.2.7.jar"/>
+	<classpathentry kind="lib" path="/home/cloudera/solr-4.10.1/example/webapps/WEB-INF/lib/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
