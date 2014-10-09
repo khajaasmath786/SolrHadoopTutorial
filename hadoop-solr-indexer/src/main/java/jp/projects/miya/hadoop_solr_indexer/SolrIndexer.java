@@ -41,7 +41,7 @@ public class SolrIndexer extends Configured implements Tool {
 				|| conf.get(Constants.REQUEST_THREAD_COUNT) == null) {
 				this.printUsage();
 				
-				// Run this example from eclipse using Run As Java with aruguments as -D csv.headers=id,name,comment -D request.solr.url=http://localhost:8983/solr/batch_tweets request.bufsize=100 -D request.threads=5 input
+				// Run this example from eclipse using Run As Java with aruguments as -D csv.headers=id,user_name,user_screen_name -D request.solr.url=http://localhost:8983/solr/batch_tweets request.bufsize=100 -D request.threads=5 input
 				
 				
 				//$ export LIBJARS=/usr/lib/*.jar,usr/lib/solr/bib/*.jar

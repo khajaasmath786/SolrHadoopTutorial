@@ -12,7 +12,7 @@ public class SolrjPopulator {
     for(int i=0;i<1000;++i) {
       SolrInputDocument doc = new SolrInputDocument();
       doc.addField("id", "100000001");
-      doc.addField("user_name", "book");
+      doc.addField("user_name", "Asmath");
       doc.addField("user_screen_name", "book-" + i);
       doc.addField("user_statuses_count", "12");
       server.add(doc);

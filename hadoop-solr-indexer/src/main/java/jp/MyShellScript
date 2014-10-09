@@ -1,0 +1,7 @@
+
+    solrctl instancedir --generate /home/cloudera/batch_tweets_configs
+    
+   solrctl instancedir --create Assu_tweets /home/cloudera/batch_tweets_configs
+
+    solrctl collection --create Assu_tweets -s 1
+

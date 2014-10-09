@@ -58,6 +58,7 @@ public class IndexMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 			String[] fields = this._csvParser.parseLine(value.toString());
 			if (fields.length == this._csvHeaders.length) {
 				SolrInputDocument doc = new SolrInputDocument();
+				
 				for (int i = 0; i < fields.length; i++) {
 					doc.addField(this._csvHeaders[i], fields[i]);
 				}
